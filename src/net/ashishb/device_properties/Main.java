@@ -31,7 +31,7 @@ public class Main extends Activity
       // Add MCC
       text += "MCC: " + context.getResources().getConfiguration().mcc + SEPARATOR;
       // Add MNC
-      text += "MNC: " + context.getResources().getConfiguration().mcc + SEPARATOR;
+      text += "MNC: " + context.getResources().getConfiguration().mnc + SEPARATOR;
       // Add Phone number
       text += "Phone number: " + telephonyManager.getLine1Number() + SEPARATOR;
       // Add carrier name
