@@ -52,7 +52,7 @@ public class Main extends Activity
     // Add IMEI SV
     text += "IMEI SV: " + telephonyManager.getDeviceSoftwareVersion() + SEPARATOR;
     // Add internet reachable
-    text += "Google.com reachable?: " + (canReachUrl("http://www.google.com") ? "Yes" : "No");
+    text += "Google.com reachable?: " + (canReachUrl("http://www.google.com") ? "Yes" : "No") + SEPARATOR;
     text += "TODO(ashishb): Add refresh button";
     textView.setText(text);
   }
